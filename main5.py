@@ -62,4 +62,4 @@ while True:
       send_telegram_message(message)
 
   # Bir dakika bekleyin
-  time.sleep(300)
+  time.sleep(60)
