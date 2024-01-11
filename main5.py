@@ -57,8 +57,8 @@ while True:
       logger.info(message)
       send_telegram_message(message)
     elif sell_signal:
-      logger.info(message)
       message = f"SELL signal for {symbol}. Price: {client.get_symbol_ticker(symbol=symbol)['price']}"
+      logger.info(message)
       send_telegram_message(message)
 
   # Bir dakika bekleyin
