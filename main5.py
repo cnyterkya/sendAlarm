@@ -7,7 +7,7 @@ import numpy as np
 import logging
 from datetime import datetime
 
-logging.basicConfig(filename="log_file.log", level=logging.DEBUG, format='%(asctime)s %(message)s', filemode='w')
+logging.basicConfig(filename="log_file5.log", level=logging.DEBUG, format='%(asctime)s %(message)s', filemode='w')
 logger = logging.getLogger()
 # Binance API anahtarlarınızı buraya ekleyin
 api_key = config.API_KEY
