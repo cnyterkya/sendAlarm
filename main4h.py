@@ -65,12 +65,12 @@ def bot():
             send_telegram_message(message)
 
 logger.info("sstarted")
-schedule.every().day.at("03:05").do(bot)
-schedule.every().day.at("07:05").do(bot)
-schedule.every().day.at("11:05").do(bot)
-schedule.every().day.at("15:05").do(bot)
-schedule.every().day.at("19:05").do(bot)
-schedule.every().day.at("23:05").do(bot)
+schedule.every().day.at("02:01").do(bot)
+schedule.every().day.at("06:01").do(bot)
+schedule.every().day.at("10:01").do(bot)
+schedule.every().day.at("14:01").do(bot)
+schedule.every().day.at("18:01").do(bot)
+schedule.every().day.at("22:01").do(bot)
 
 while True:
     schedule.run_pending()
